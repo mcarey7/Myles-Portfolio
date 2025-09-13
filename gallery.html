@@ -24,11 +24,23 @@
         color: #333;
         box-shadow: 0 2px 6px rgba(0,0,0,0.2);
         transition: background-color 0.2s;
-        text-align: center;
       }
       .album-grid a.hover {
         background-color: #e0e0e0;
       }  
+      .album-grid img{
+        width: 100%
+        height: 100%;
+        object-fit: cover;
+        border-radius: 6px;
+        margin-top: 10px;
+      }
+      .album-grid span{
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 6px;
+      }
+      
     </style>
   </head>
   <body class='container'>
@@ -36,12 +48,12 @@
     <p>Cycling Snapshots</p>
     <a class = "album-grid">
     <a href = "https://photos.google.com/share/AF1QipM_k2NBXyEGEgZ1edi_1_UWobGLd_T2ifogk5nlMcU6ekV5ADrzMqklU5HKl0UNRw?key=ZG9jcktVbndOTDdkRmhjMldJNDU5S3FzUE5KRVV3" target = "_blank"> 
-    <img src ="images/ore2shore2025thumb.jpg" alt = "Ore 2 Shore 2025" >
-      <span>Ore 2 Shore 2025</span>
+    <span>Ore 2 Shore 2025</span>
+      <img src ="images/ore2shore2025thumb.jpg" alt = "Ore 2 Shore 2025" >
     </a>
       <a href = "https://photos.google.com/album/AF1QipNObfSRCKRJrrRxxwbx1OY5eofOxD8KvEDgLXJP" target = "_blank">  
-      <img src = "images/greatdeerchase2025thumb.jpg" alt ="Great Deer Chase 2025">
         <span>Great Deer Chase 2025</span>
+        <img src = "images/greatdeerchase2025thumb.jpg" alt ="Great Deer Chase 2025">
       </a>
     </div>
   </body>
